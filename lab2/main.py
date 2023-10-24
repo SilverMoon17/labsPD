@@ -61,6 +61,6 @@ def download_images(search_query, class_name, num_images=1000):
 download_images('zebra', 'zebra', num_images=1000)
 
 # Загружаем изображения для класса "bay horse"
-download_images('bay horse', 'bay_horse', num_images=1000)
+download_images('bay_horse', 'bay_horse', num_images=1000)
 
 print("Загрузка изображений завершена.")
